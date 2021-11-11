@@ -1,0 +1,19 @@
+﻿  Editor.cpp
+C:\Users\Peter\source\repos\SI editor\SI editor\LinkedList.h(38,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Peter\source\repos\SI editor\SI editor\LinkedList.h(44): message : see reference to class template instantiation 'LinkedList<ItemType>' being compiled
+C:\Users\Peter\source\repos\SI editor\SI editor\LinkedList.h(43,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Peter\source\repos\SI editor\SI editor\LinkedList.cpp(142,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Peter\source\repos\SI editor\SI editor\LinkedList.cpp(160,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Peter\source\repos\SI editor\SI editor\Editor.cpp(189,11): warning C4101: 'coord': unreferenced local variable
+  main.cpp
+C:\Users\Peter\source\repos\SI editor\SI editor\LinkedList.h(38,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Peter\source\repos\SI editor\SI editor\LinkedList.h(44): message : see reference to class template instantiation 'LinkedList<ItemType>' being compiled
+C:\Users\Peter\source\repos\SI editor\SI editor\LinkedList.h(43,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Peter\source\repos\SI editor\SI editor\LinkedList.cpp(142,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Peter\source\repos\SI editor\SI editor\LinkedList.cpp(160,1): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\Peter\source\repos\SI editor\SI editor\main.cpp(7,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+Editor.obj : error LNK2019: unresolved external symbol "int __cdecl binarySearch(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > * const,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?binarySearch@@YAHQEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHV12@@Z) referenced in function "public: void __cdecl Editor::displayLines(void)" (?displayLines@Editor@@QEAAXXZ)
+    Hint on symbols that are defined and could potentially match:
+      "int __cdecl binarySearch(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const * const,int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?binarySearch@@YAHQEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHV12@@Z)
+C:\Users\Peter\source\repos\SI editor\x64\Debug\SI editor.exe : fatal error LNK1120: 1 unresolved externals
